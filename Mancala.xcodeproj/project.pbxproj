@@ -11,6 +11,16 @@
 		59317F1E29E0419F00838CC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59317F1D29E0419F00838CC3 /* ContentView.swift */; };
 		59317F2029E041AA00838CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59317F1F29E041AA00838CC3 /* Assets.xcassets */; };
 		59317F2329E041AA00838CC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59317F2229E041AA00838CC3 /* Preview Assets.xcassets */; };
+		59317F2C29E041DD00838CC3 /* GameResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59317F2B29E041DD00838CC3 /* GameResult.swift */; };
+		59317F2F29E041E900838CC3 /* Computer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59317F2E29E041E900838CC3 /* Computer.swift */; };
+		59317F3229E041F500838CC3 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59317F3129E041F500838CC3 /* Main.swift */; };
+		59317F3E29E0422B00838CC3 /* bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 59317F3A29E0422A00838CC3 /* bgm.mp3 */; };
+		59317F3F29E0422B00838CC3 /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 59317F3B29E0422A00838CC3 /* ding.mp3 */; };
+		59317F4029E0422B00838CC3 /* bgm2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 59317F3C29E0422B00838CC3 /* bgm2.mp3 */; };
+		59317F4129E0422B00838CC3 /* bgm1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 59317F3D29E0422B00838CC3 /* bgm1.mp3 */; };
+		59317F4629E0423500838CC3 /* rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59317F4329E0423400838CC3 /* rule.swift */; };
+		59317F4729E0423500838CC3 /* setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59317F4429E0423400838CC3 /* setting.swift */; };
+		59317F4829E0423500838CC3 /* statistic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59317F4529E0423500838CC3 /* statistic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +30,16 @@
 		59317F1F29E041AA00838CC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59317F2229E041AA00838CC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		59317F2429E041AA00838CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59317F2B29E041DD00838CC3 /* GameResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameResult.swift; sourceTree = "<group>"; };
+		59317F2E29E041E900838CC3 /* Computer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Computer.swift; sourceTree = "<group>"; };
+		59317F3129E041F500838CC3 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		59317F3A29E0422A00838CC3 /* bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm.mp3; sourceTree = "<group>"; };
+		59317F3B29E0422A00838CC3 /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
+		59317F3C29E0422B00838CC3 /* bgm2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm2.mp3; sourceTree = "<group>"; };
+		59317F3D29E0422B00838CC3 /* bgm1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm1.mp3; sourceTree = "<group>"; };
+		59317F4329E0423400838CC3 /* rule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rule.swift; sourceTree = "<group>"; };
+		59317F4429E0423400838CC3 /* setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = setting.swift; sourceTree = "<group>"; };
+		59317F4529E0423500838CC3 /* statistic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = statistic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +72,15 @@
 		59317F1A29E0419F00838CC3 /* Mancala */ = {
 			isa = PBXGroup;
 			children = (
+				59317F3929E0421B00838CC3 /* Resources */,
 				59317F1B29E0419F00838CC3 /* MancalaApp.swift */,
 				59317F1D29E0419F00838CC3 /* ContentView.swift */,
+				59317F2B29E041DD00838CC3 /* GameResult.swift */,
+				59317F2E29E041E900838CC3 /* Computer.swift */,
+				59317F3129E041F500838CC3 /* Main.swift */,
+				59317F4329E0423400838CC3 /* rule.swift */,
+				59317F4429E0423400838CC3 /* setting.swift */,
+				59317F4529E0423500838CC3 /* statistic.swift */,
 				59317F1F29E041AA00838CC3 /* Assets.xcassets */,
 				59317F2429E041AA00838CC3 /* Info.plist */,
 				59317F2129E041AA00838CC3 /* Preview Content */,
@@ -67,6 +94,17 @@
 				59317F2229E041AA00838CC3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		59317F3929E0421B00838CC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				59317F3A29E0422A00838CC3 /* bgm.mp3 */,
+				59317F3D29E0422B00838CC3 /* bgm1.mp3 */,
+				59317F3C29E0422B00838CC3 /* bgm2.mp3 */,
+				59317F3B29E0422A00838CC3 /* ding.mp3 */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +164,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59317F3F29E0422B00838CC3 /* ding.mp3 in Resources */,
+				59317F4029E0422B00838CC3 /* bgm2.mp3 in Resources */,
+				59317F3E29E0422B00838CC3 /* bgm.mp3 in Resources */,
 				59317F2329E041AA00838CC3 /* Preview Assets.xcassets in Resources */,
 				59317F2029E041AA00838CC3 /* Assets.xcassets in Resources */,
+				59317F4129E0422B00838CC3 /* bgm1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +180,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59317F3229E041F500838CC3 /* Main.swift in Sources */,
+				59317F2F29E041E900838CC3 /* Computer.swift in Sources */,
+				59317F4829E0423500838CC3 /* statistic.swift in Sources */,
 				59317F1E29E0419F00838CC3 /* ContentView.swift in Sources */,
+				59317F4729E0423500838CC3 /* setting.swift in Sources */,
 				59317F1C29E0419F00838CC3 /* MancalaApp.swift in Sources */,
+				59317F2C29E041DD00838CC3 /* GameResult.swift in Sources */,
+				59317F4629E0423500838CC3 /* rule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
